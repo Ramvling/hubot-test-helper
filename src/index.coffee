@@ -1,6 +1,7 @@
 Fs    = require('fs')
 Path  = require('path')
 Hubot = require('hubot')
+Promise = require('promise-coffee')
 
 process.setMaxListeners(0)
 
